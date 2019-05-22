@@ -25,7 +25,7 @@ class Warrior: Personagem {
         self.hp = readLine()
     }
 
-    func agilidade() {
+    func agilidade() -> Int {
         print("Digite a agilidade")
         self.agility = readLine()
     }
